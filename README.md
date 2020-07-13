@@ -15,3 +15,10 @@ Rules are simple.
    `class SuperDuper:  ~> users, models, ticket`
    
  
+Note: if you want to create other types of files from a central location you do so by specifying the name and extension. such as
+```
+Dockerfile  ~> projectrootName
+    """
+    Docker syntax
+    """
+```
